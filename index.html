@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>e-Portfolio – Timothé Montoya</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <nav>
+      <div class="logo">Timothé Montoya</div>
+
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">À propos</a></li>
+        <li><a href="#travels">Voyages</a></li>
+        <li><a href="#passions">Passions</a></li>
+        <li><a href="#projects">Projets</a></li>
+        <li><a href="#contact">Me contacter</a></li>
+      </ul>
+
+      <div class="nav-controls">
+        <button id="theme-toggle" title="Changer de thème">🌙</button>
+        <div class="burger" id="burger">
+          <span></span><span></span><span></span>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <section id="hero">
+    <div class="hero-content">
+      <h1>Bienvenue sur mon e&#x2011;Portfolio</h1>
+      <p>Entre technologie, créativité et découverte du monde.</p>
+      <a href="#about" class="btn">Découvrir</a>
+    </div>
+
+    <a href="#about" class="scroll-down">
+        <span></span>
+    </a>
+  </section>
+
+  <section id="about">
+    <h2>À propos de moi</h2>
+    <div class="content">
+      <img src="images/portrait.jpg" alt="Photo de profil" />
+      <div>
+        <p>
+          Je suis passionné d’informatique, de domotique et de voyages. À travers
+          ce portfolio, je partage mes réalisations, mes aventures et mes futurs
+          projets personnels et professionnels.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="travels">
+    <h2>Mes Voyages</h2>
+    <div class="slideshow">
+      <img src="images/vietnam.jpg" alt="Vietnam" class="active" />
+      <img src="images/laos.jpg" alt="Laos" />
+      <img src="images/japon.jpg" alt="Japon" />
+      <img src="images/montagne.jpg" alt="Montagne" />
+    </div>
+  </section>
+
+  <section id="passions">
+    <h2>Mes Passions</h2>
+    <div class="grid passions">
+      <a href="passions/musique.html" class="card passion-link">
+        <h3>Musique</h3>
+        <p>Production et mixage inspirés des sonorités modernes.</p>
+      </a>
+      <a href="passions/moto.html" class="card passion-link">
+        <h3>Moto</h3>
+        <p>Mécanique et sensations fortes, deux roues sinon rien.</p>
+      </a>
+      <a href="passions/innovation.html" class="card passion-link">
+        <h3>Innovation</h3>
+        <p>Création de solutions techniques alliant performance et design.</p>
+      </a>
+    </div>
+  </section>
+
+  <section id="projects">
+    <h2>Mes Projets</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="images/project1.jpg" alt="Projet 1" />
+        <h3>E-Mapp</h3>
+        <p>ERP industriel modulaire avec supervision et planification.</p>
+      </div>
+      <div class="card">
+        <img src="images/project2.jpg" alt="Projet 2" />
+        <h3>MyBoard</h3>
+        <p>Application de gestion de projets collaborative inspirée de Trello.</p>
+      </div>
+      <div class="card">
+        <img src="images/project3.jpg" alt="Projet 3" />
+        <h3>Domotique</h3>
+        <p>Suivi énergétique et automatisation via Home Assistant.</p>
+      </div>
+    </div>
+  </section>
+
+
+  <section id="Me contacter">
+    <h2>Contact</h2>
+    <h3>timothe.monotya@etu-inp.n7.fr</h3>
+  </section>
+
+  <footer>
+    <p>2025 Timothé Montoya</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
