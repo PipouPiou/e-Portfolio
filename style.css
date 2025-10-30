@@ -229,6 +229,12 @@ h2 {
   transition: transform 0.3s;
 }
 .card:hover { transform: translateY(-5px); }
+.card-music img {
+  width: 100%;
+  aspect-ratio: 3/4;
+  border-radius: 10px;
+  margin-bottom: 1rem;
+}
 .card img {
   width: 100%;
   border-radius: 10px;
